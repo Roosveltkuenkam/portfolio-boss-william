@@ -1,0 +1,10 @@
+# Netlify configuration for static HTML/CSS/JS site
+
+[build]
+publish = "."
+
+# Redirect all requests to index.html for SPA (optional)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
